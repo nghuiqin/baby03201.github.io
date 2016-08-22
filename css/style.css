@@ -1,0 +1,16 @@
+.nav {
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #26519e;
+    height: 100%;
+}
+
+.main-header-title {
+    font-family: cursive;
+    font-size: 30px;
+    color: white;
+    padding-left: 20px;
+}
