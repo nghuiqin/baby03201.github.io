@@ -37,7 +37,7 @@ body {
     -webkit-flex: 1;
     flex: 1;
     display: flex;
-    display: webkit-flex;
+    display: -webkit-flex;
     -webkit-justify-content: flex-end;
     justify-content: flex-end;
     width: 300px;
