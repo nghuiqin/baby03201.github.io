@@ -10,6 +10,7 @@ body {
     -webkit-align-items: flex-start;
     align-items: flex-start;
     flex-wrap: wrap;
+    flex-direction: column;
     position: relative;
     z-index: 1;
     margin: 0;
@@ -30,14 +31,23 @@ body {
     font-size: 20px;
     color: white;
     margin: 15px;
-    width: 125px;
+    text-align: center;
+}
+
+.nav .nav-header {
+    flex: 1;
+    -webkit-flex: 1;
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
 }
 
 .nav .social-media {
-    -webkit-flex: 1;
     flex: 1;
+    -webkit-flex: 1;
     display: flex;
     display: -webkit-flex;
+    flex-direction: row;
     -webkit-justify-content: flex-end;
     justify-content: flex-end;
     width: 300px;
@@ -49,4 +59,21 @@ body {
     width: 30px;
     height: 30px;
     fill: white;
+}
+
+.nav .profile, .nav .user-info {
+    flex: 1;
+    -webkit-flex: 1;
+    display: flex;
+    -webkit-display: -webkit-flex;
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+
+.nav .profile img {
+    display:
+    margin: 0px auto;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
 }
